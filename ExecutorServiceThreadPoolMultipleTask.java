@@ -49,3 +49,16 @@ public class ExecutorServiceThreadPoolMultipleTask {
 	}
 
 }
+
+/*
+Output:
+pool-1-thread-2
+Task2 started
+pool-1-thread-1
+Task1 started
+Task1 end
+Task2 end
+pool-1-thread-1
+Task3 started
+Task3 end
+*/
